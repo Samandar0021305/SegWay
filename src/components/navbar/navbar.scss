@@ -32,7 +32,7 @@
         cursor: pointer;
     }
     &__right-list{
-   width: 30%;
+   width: 20%;
    display: flex;
    align-items: center;
     }
@@ -112,6 +112,9 @@
            }
            &__tel{
             color: #323941;
+           }
+           &__right-list{
+            width: 30%;
            }
         
     }

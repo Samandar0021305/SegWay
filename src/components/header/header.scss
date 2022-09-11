@@ -1,0 +1,50 @@
+.header{
+    &__topbar{
+        background: #323941;
+        &__list{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 10px 20px;
+        }
+        &__list img{
+            width: 60px;
+            height: 60px;
+        }
+        &__list li{
+            width: 150px;
+            margin: 10px 0;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 5px;
+            padding: 10px 0;
+            transition: background 0.5s ease-in;
+            &:hover{
+                background: #009EFF;
+            }
+            &:hover h2{
+                opacity: 1;
+            }
+        }
+        &__list h2{
+            font-size: 16px;
+            color: white;
+            opacity: 0.7;
+            transition: opacity 0.5s ease-in-out;
+        }
+        &__box{
+            background: #009EFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 0;
+        }
+        &__box h2{
+            color: white;
+        }
+    }
+}
