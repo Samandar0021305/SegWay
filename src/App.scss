@@ -1,4 +1,6 @@
 *{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 ul,li{
@@ -8,10 +10,15 @@ a{
     text-decoration: none;
 }
 .container{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 body{
     margin: 0;
     padding: 0;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

@@ -1,0 +1,137 @@
+.navbar{
+    background: #323941;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding: 15px 20px;
+
+    &__list{
+   width: 60%;
+   
+    }
+    &__right-item{
+        display: none;
+    }
+    &__img{
+        display: flex;
+    }
+    &__toogle{
+        color: white;
+        cursor: pointer;
+        display: none !important ;
+    }
+    &__list a{
+        font-weight: 400;
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+       }
+    &__shop{
+        color: white;
+        cursor: pointer;
+    }
+    &__right-list{
+   width: 30%;
+   display: flex;
+   align-items: center;
+    }
+    &__right-list li{
+        margin: 0 10px;
+        position: relative;
+    }
+    &__instagram{
+        color: white;
+        cursor: pointer;
+    }
+    &__tel{
+        color: white;
+    }
+    &__after{
+        display: flex;
+        color: white;
+        width: 10px;
+        height: 10px;
+        background-color: rgb(64, 64, 244);
+        font-size: 11px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: absolute;
+        top: -4px;
+        right: -5px;
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width:1154px){
+    .navbar{
+       
+        &__list a{
+            font-weight: 400;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+           }
+
+        
+    }
+}
+
+
+
+
+@media (max-width:891px){
+    .navbar{
+        background: #FFFFFF;
+
+        &__list a{
+            font-weight: 400;
+            font-size: 12px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+           }
+           &__list{
+            display: none !important; 
+           }
+           
+           &__toogle{
+            display: flex !important; 
+            color: #323941;
+           }
+           &__shop{
+            color: #323941;
+           }
+           &__instagram{
+            color: #323941;
+           }
+           &__tel{
+            color: #323941;
+           }
+        
+    }
+}
+
+
+@media (max-width:500px){
+    .navbar{
+        padding: 5px 0;
+        background: #FFFFFF;
+           &__tel{
+            color: #323941;
+            display: none;
+           }
+           &__right-item{
+            display: flex;
+           }
+           &__right-list li{
+            margin: 0 5px;
+           }
+        
+    }
+}
