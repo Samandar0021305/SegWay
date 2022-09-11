@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import "./normalize.scss";
+import './App.scss';
+
+// components;
+import Navbar from "./components/navbar/Navbar.jsx"
 
 function App() {
   return (
     <>
-    app
+    <Navbar />
     </>
   );
 }
