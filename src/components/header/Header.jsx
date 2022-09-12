@@ -25,8 +25,11 @@ function Header(){
                         <h2>Free 1 day shipping within California.</h2>
                     </div>
                 </div>
-            
-         
+
+
+            <div className="header__center">
+                
+            </div>
         </header>
     )
 }

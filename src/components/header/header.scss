@@ -57,6 +57,13 @@
         .topbar{
             height: 100px;
             overflow-y: hidden;
+            &__list{
+                flex-wrap: nowrap;
+            }
         }
+        &__topbar__box{
+            // display: flex;
+            font-size: 12px;
+    }
     }
 }
